@@ -109,32 +109,32 @@ Overview of Socks Shop Application
 
 The Socks Shop is a sample microservices-based e-commerce application available on GitHub. It consists of multiple microservices, each serving a specific function such as product catalog, shopping cart, and payment processing. The application showcases best practices for building and deploying microservices architectures.
 
-Infrastructure as Code Approach
+###### Infrastructure as Code Approach
 
-We utilize Terraform to automate the provisioning and management of infrastructure on Kubernetes. Our deployment scripts and configurations are designed to be clear, concise, and easily maintainable.
+l utilize Terraform to automate the provisioning and management of infrastructure on Kubernetes. My deployment scripts and configurations are designed to be clear, concise, and easily maintainable.
 
-Deployment Pipeline
+######## Deployment Pipeline
 
-Our deployment pipeline orchestrates the movement of the application from code to a running environment on Kubernetes. We leverage Terraform to provision Kubernetes resources and deploy the Socks Shop microservices.
+My deployment pipeline orchestrates the movement of the application from code to a running environment on Kubernetes. l leverage Terraform to provision Kubernetes resources and deploy the Socks Shop microservices.
 
-Monitoring and Alerts
+######### Monitoring and Alerts
 
 Prometheus is implemented for monitoring the health and performance of the Socks Shop application. Alertmanager is configured to send alerts based on predefined thresholds or conditions.
 
-Logging
+####### Logging
 
-Logging is crucial for tracking and analyzing the application's operations. We ensure comprehensive logging by integrating logging solutions such as Fluentd and Elasticsearch with Kubernetes.
+Logging is crucial for tracking and analyzing the application's operations. l ensure comprehensive logging by integrating logging solutions such as Fluentd and Elasticsearch with Kubernetes.
 
-Tools for Setup
+##### Tools for Setup
 
-We utilize Terraform for managing infrastructure configurations, making it easy to scale and manage Kubernetes clusters. AWS is chosen as the Infrastructure as a Service (IaaS) provider for hosting our Kubernetes cluster.
+l utilize Terraform for managing infrastructure configurations, making it easy to scale and manage Kubernetes clusters. AWS is chosen as the Infrastructure as a Service (IaaS) provider for hosting our Kubernetes cluster.
 
-Security and HTTPS
+####### Security and HTTPS
 
-The Socks Shop application is accessible securely over HTTPS using Let's Encrypt for certificates. We implement network security measures to enhance infrastructure security and utilize Ansible Vault for securely handling sensitive information.
+The Socks Shop application is accessible securely over HTTPS using Let's Encrypt for certificates. l implement network security measures to enhance infrastructure security and utilize Ansible Vault for securely handling sensitive information.
 
 Conclusion
 
-In conclusion, our project demonstrates the successful deployment of the Socks Shop application on Kubernetes using Infrastructure as Code principles. Through clear and maintainable deployment scripts, robust monitoring and logging, and stringent security measures, we ensure the reliability and security of the application.
+In conclusion, this project demonstrates the successful deployment of the Socks Shop application on Kubernetes using Infrastructure as Code principles. Through clear and maintainable deployment scripts, robust monitoring and logging, and stringent security measures, l ensure the reliability and security of the application.
 
 Please make sure to verify the commands and steps mentioned in this document before executing them in your environment.
